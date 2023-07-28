@@ -1,0 +1,27 @@
+.single-recepe-card{
+    margin: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.single-card{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    width: 800px;
+    padding-right: 50px;
+    margin: 20px;
+
+}
+.single-card .single-heading{
+    
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    
+    
+}
