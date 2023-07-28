@@ -29,7 +29,7 @@ const AllRecepe = (props) => {
                     if(e1.strIngredient < e2.strIngredient) return -1;
                     return 0;
                   }).filter((value)=> {
-                    if(value.strIngredient.includes(state)){
+                    if(value.strIngredient.toLowerCase().includes(state.toLowerCase())){
                       return true;
                     }
                   })
